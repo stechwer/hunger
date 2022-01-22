@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hunger</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="heder-menu">
+                    <ul class="header-lists">
+                        <li class="header-list"><a href="#home" class="header-link">HOME</a></li>
+                        <li class="header-list"><a href="#about" class="header-link">ABOUT</a></li>
+                        <li class="header-list"><a href="#team" class="header-link">TEAM</a></li>
+                        <li class="header-list"><a href="#booking" class="header-link">BOOKING</a></li>
+                    </ul>
+                </div>
+                <img class="header-logo" src="images/logo.svg" alt="header-logo">
+                <div class="heder-menu">
+                    <ul class="header-lists">
+                        <li class="header-list"><a href="#menu" class="header-link">MENU</a></li>
+                        <li class="header-list"><a href="#galerie" class="header-link">GALERIE</a></li>
+                        <li class="header-list"><a href="#events" class="header-link">EVENTS</a></li>
+                        <li class="header-list"><a href="#contacts" class="header-link">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="header-menu__burger">
+                    <input type="checkbox" id="active">
+                    <label for="active" class="menu-btn"><span></span></label>
+                    <label for="active" class="close"></label>
+                    <div class="wrapper">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header-inner">
+                <div class="header-timetable">
+                    <p class="header-timetable__text">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
+                </div>
+                <div class="header-content">
+                    <h5 class="header-content__text">
+                        RESTAURANT
+                    </h5>
+                    <h1 class="header-content__title">
+                        hungry people
+                    </h1>
+                    <a href="#" class="header-content__link header-content__link--active">BOOK TABLE</a>
+                    <a href="#" class="header-content__link">EXPLORE</a>
+                </div>
+                <div class="header-networks">
+                    <a class="header-networks__link" href="#">
+                        <img src="images/facebook.png" alt="facebook" class="header-networks__item">
+                    </a>
+                    <a class="header-networks__link" href="#">
+                        <img src="images/twitter.png" alt="twitter" class="header-networks__item">
+                    </a>
+                    <a class="header-networks__link" href="#">
+                        <img src="images/instagram.png" alt="instagram" class="header-networks__item">
+                    </a>
+                </div>
+            </div>
+            <a href="#about" class="arrow-bth">
+                <img src="images/header-arrow.png" alt="header-arrow" class="header-arrow">
+            </a>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-inner inner">
+                <div class="about-content content">
+                    <h3 class="about-content__title title">
+                        about us
+                    </h3>
+                    <h5 class="about-content__subtitle subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,
+                        tempor magna.
+                    </h5>
+                    <p class="about-content__text text">
+                        Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+                        ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+                        quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                    </p>
+                </div>
+                <div class="about-foto">
+                    <img src="images/about-img.png" alt="about-foto" class="image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team" id="team">
+        <div class="container">
+            <div class="team-inner inner">
+                <div class="team-foto">
+                    <img src="images/team-image.png" alt="team-foto" class="image">
+                </div>
+                <div class="team-content content">
+                    <h3 class="team-content__title title">
+                        MASTER CHEF
+                    </h3>
+                    <h5 class="team-content__subtitle subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,
+                        tempor magna.
+                    </h5>
+                    <p class="team-content__text text">
+                        Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+                        ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+                        quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="booking-inner inner">
+                <div class="booking-content content">
+                    <h3 class="booking-content__title title">
+                        book a table
+                    </h3>
+                    <form class="booking-form">
+                        <input class="booking-form__name booking-form__item" name="booking-form__name" type="name" required
+                            placeholder="Name">
+                        <input class="booking-form__email booking-form__item" name="booking-form__email" type="email" required
+                            placeholder="Email">
+                        <input class="booking-form__tel booking-form__item" name="booking-form__tel" type="tel" required
+                            placeholder="Phone">
+                        <input class="booking-form__name booking-form__item" name="booking-form__people" required
+                            placeholder="People">
+                        <input class="booking-form__email booking-form__item" name="booking-form__date" required
+                            type="datetime-local" placeholder="Date">
+                        <input class="booking-form__tel booking-form__item" name="booking-form__time" type="time" required
+                            placeholder="Time">
+                        <button class="booking-form__submit booking-form__item" name="booking-form__submit"
+                            type="submit">BOOK NOW</button>
+                    </form>
+                </div>
+                <div class="booking-foto">
+                    <img src="images/booking-img.png" alt="booking-foto" class="image">
+                </div>
+            </div>
+            <p class="booking-info">
+                Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458 782
+            </p>
+        </div>
+    </section>
+    <section class="galerie" id="galerie">
+        <div class="container">
+            <h5 class="galerie__title">
+                specialties
+            </h5>
+            <div class="galerie-wrapper">
+                <div class="galerie-inner inner">
+                    <div class="galerie-foto">
+                        <img src="images/galerie-image.png" alt="galerie-foto" class="image">
+                    </div>
+                    <div class="galerie-content content">
+                        <h3 class="galerie-content__title title">
+                            chocolate pancakes
+                        </h3>
+                        <h5 class="galerie-content__subtitle subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est
+                            a, tempor magna.
+                        </h5>
+                        <p class="galerie-content__text text">
+                            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+                            ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin
+                            lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper
+                            laoreet.
+                        </p>
+                    </div>
+                </div>
+                <div class="galerie-inner inner">
+                    <div class="galerie-foto">
+                        <img src="images/galerie-image.png" alt="galerie-foto" class="image">
+                    </div>
+                    <div class="galerie-content content">
+                        <h3 class="galerie-content__title title">
+                            chocolate pancakes
+                        </h3>
+                        <h5 class="galerie-content__subtitle subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est
+                            a, tempor magna.
+                        </h5>
+                        <p class="galerie-content__text text">
+                            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+                            ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin
+                            lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper
+                            laoreet.
+                        </p>
+                    </div>
+                </div>
+                <div class="galerie-inner inner">
+                    <div class="galerie-foto">
+                        <img src="images/galerie-image.png" alt="galerie-foto" class="image">
+                    </div>
+                    <div class="galerie-content content">
+                        <h3 class="galerie-content__title title">
+                            chocolate pancakes
+                        </h3>
+                        <h5 class="galerie-content__subtitle subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est
+                            a, tempor magna.
+                        </h5>
+                        <p class="galerie-content__text text">
+                            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+                            ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin
+                            lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper
+                            laoreet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="container">
+            <h3 class="menu__title title">
+                DELICIOUS MENU
+            </h3>
+            <h5 class="menu__text subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+                magna.
+            </h5>
+            <div class="menu-buttons">
+                <button type="submit" class="menu-bth" data-filter=".soupe">SOUPE</button>
+                <button type="submit" class="menu-bth" data-filter=".pizza">PIZZA</button>
+                <button type="submit" class="menu-bth" data-filter=".pasta">PASTA</button>
+                <button type="submit" class="menu-bth" data-filter=".desert">DESERT</button>
+                <button type="submit" class="menu-bth" data-filter=".wine">WINE</button>
+                <button type="submit" class="menu-bth" data-filter=".beer">BEER</button>
+                <button type="submit" class="menu-bth" data-filter=".drinks">DRINKS</button>
+            </div>
+            <div class="menu-wpapper">
+                <div class="menu-pizza mix pasta">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix pasta">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix pasta">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix pasta">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix pizza">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix pizza">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix pizza">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix pizza">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix soupe">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix soupe">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix soupe">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix desert">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix desert">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix desert">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix desert">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix desert">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix wine">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix wine">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix beer">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix drinks">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+                <div class="menu-pizza mix drinks">
+                    <h3 class="menu-pizza__title">
+                        PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    </h3>
+                    <h4 class="menu-pizza__subtitle">
+                        Integer ullamcorper neque eu purus euismod
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section class="events" id="events">
+        <div class="container">
+            <h5 class="events__title">
+                PRIVATE EVENTS
+            </h5>
+            <div class="events-inner inner">
+                <img src="images/events-image1.png" alt="events-image1" class="events-image">
+                <img src="images/events-image2.png" alt="events-image2" class="events-image">
+            </div>
+            <p class="events__text">
+                For private events please call: +40 729 131 637/+40 726 458 782 or use the contact form.
+            </p>
+        </div>
+    </section>
+    <div class="photo">
+        <div class="photo-wrappper">
+            <img class="photo__img" src="images/galerie-image1.jpg" alt="galerie-image1">
+            <img class="photo__img" src="images/galerie-image2.jpg" alt="galerie-image2">
+            <img class="photo__img" src="images/galerie-image3.jpg" alt="galerie-image3">
+            <img class="photo__img" src="images/galerie-image4.jpg" alt="galerie-image4">
+        </div>
+    </div>
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h3 class="contacts__title title">
+                CONTACT
+            </h3>
+            <h5 class="cintacts__text subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+                magna.
+            </h5>
+            <form class="contacts-form">
+                <div class="contacts-data">
+                    <input class="contacts__name" type="name" name="name" placeholder="Name">
+                    <input class="contacts__email" type="email" name="email" placeholder="Email">
+                    <input class="contacts__tel" type="tel" name="tel" placeholder="Phone">
+                </div>
+                <textarea class="contacts__textarea" name="textarea" placeholder="Message"></textarea>
+                <button class="contacts__bth">SEND MESSAGE</button>
+            </form>
+        </div>
+    </section>
+    <img src="images/map.jpg" alt="map" class="map">
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <a class="footer__link" href="#">
+                    <img src="images/facebook.png" alt="facebook" class="footer__item">
+                </a>
+                <a class="footer__link" href="#">
+                    <img src="images/twitter.png" alt="twitter" class="footer__item">
+                </a>
+                <a class="footer__link" href="#">
+                    <img src="images/instagram.png" alt="instagram" class="footer__item">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
